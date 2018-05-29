@@ -9,9 +9,9 @@ using Ship.Data.Entities;
 
 namespace Ship.Data.Mapper
 {
-    public class ShipIndex : EntityTypeConfiguration<shipindex>
+    public class ShipIndexMapper : EntityTypeConfiguration<ShipIndex>
     {
-        public ShipIndex()
+        public ShipIndexMapper()
         {
             ToTable("shipindex");
             HasKey(c => c.Id);

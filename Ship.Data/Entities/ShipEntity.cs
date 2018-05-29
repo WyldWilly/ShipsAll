@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ship.Data.Entities
 {
-    public class shipindex
+    public class ShipIndex
     {
         public int Id { get; set; }
         public string Name { get; set; }

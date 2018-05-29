@@ -23,7 +23,7 @@ namespace Ship.Data.Context
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Configurations.Add(new ShipIndex());
+            modelBuilder.Configurations.Add(new ShipIndexMapper());
             base.OnModelCreating(modelBuilder);
 
         }

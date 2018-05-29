@@ -19,7 +19,7 @@ namespace Ship.Data.Repositories
 
         #region Insert
 
-        public shipindex Insert(shipindex a)
+        public ShipIndex Insert(ShipIndex a)
         {
             try
             {
@@ -36,7 +36,7 @@ namespace Ship.Data.Repositories
 
 
         #region Update
-        public shipindex Update(shipindex a)
+        public ShipIndex Update(ShipIndex a)
         {
             try
             {
@@ -66,7 +66,7 @@ namespace Ship.Data.Repositories
         }
 
         #region Delete
-        public bool Delete(shipindex a)
+        public bool Delete(ShipIndex a)
         {
             try
             {
@@ -87,12 +87,12 @@ namespace Ship.Data.Repositories
         }
 
         #region Retrieval
-        public IQueryable<shipindex> GetShipIs()
+        public IQueryable<ShipIndex> GetShipIs()
         {
             return ctx.ShipI.AsQueryable();
         }
 
-        public shipindex GetShipI(int id)
+        public ShipIndex GetShipI(int id)
         {
             return ctx.ShipI.Find(id);
         }

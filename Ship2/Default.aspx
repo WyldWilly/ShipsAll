@@ -1,22 +1,18 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Ship2._default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Ship2._default1" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Ships Database</title>
+    <title></title>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            Ships in the Database
-            <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+            <h1>Ship Database System</h1>
             <br /><br />
-            Ship Types
-            <asp:GridView ID="GridView2" runat="server"></asp:GridView>
-            <br /><br />
-            Init-Table Contents
-            <asp:GridView ID="GridView3" runat="server"></asp:GridView>
+            <asp:Button ID="DumpDB" runat="server" Text="DB Dump" OnClick="DumpDB_Click" Width="196px" />
+        &nbsp;
         </div>
     </form>
 </body>

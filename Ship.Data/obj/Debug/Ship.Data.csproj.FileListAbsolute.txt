@@ -1,0 +1,16 @@
+E:\DevCode\ShipsAll\Ship.Data\obj\Debug\Ship.Data.csproj.CoreCompileInputs.cache
+E:\DevCode\ShipsAll\Ship.Data\bin\Debug\Ship.Data.dll.config
+E:\DevCode\ShipsAll\Ship.Data\bin\Debug\Ship.Data.dll
+E:\DevCode\ShipsAll\Ship.Data\bin\Debug\Ship.Data.pdb
+E:\DevCode\ShipsAll\Ship.Data\bin\Debug\EntityFramework.dll
+E:\DevCode\ShipsAll\Ship.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\DevCode\ShipsAll\Ship.Data\bin\Debug\MySql.Data.dll
+E:\DevCode\ShipsAll\Ship.Data\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\DevCode\ShipsAll\Ship.Data\bin\Debug\EntityFramework.xml
+E:\DevCode\ShipsAll\Ship.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\DevCode\ShipsAll\Ship.Data\bin\Debug\MySql.Data.xml
+E:\DevCode\ShipsAll\Ship.Data\bin\Debug\MySql.Data.Entity.EF6.xml
+E:\DevCode\ShipsAll\Ship.Data\obj\Debug\Ship.Data.csproj.CopyComplete
+E:\DevCode\ShipsAll\Ship.Data\obj\Debug\Ship.Data.dll
+E:\DevCode\ShipsAll\Ship.Data\obj\Debug\Ship.Data.pdb
+E:\DevCode\ShipsAll\Ship.Data\obj\Debug\Ship.Data.csprojResolveAssemblyReference.cache

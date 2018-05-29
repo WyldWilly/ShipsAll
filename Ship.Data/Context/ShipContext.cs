@@ -20,12 +20,19 @@ namespace Ship.Data.Context
         //Db Sets
 
         public DbSet<ShipIndex> ShipI { get; set; }
+        public DbSet<ShipTypes> TypeI { get; set; }
+        public DbSet<Initable> IniT { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new ShipIndexMapper());
             base.OnModelCreating(modelBuilder);
 
+            modelBuilder.Configurations.Add(new ShipTypesMapper());
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Configurations.Add(new IniTableMapper());
+            base.OnModelCreating(modelBuilder);
         }
 
     }
